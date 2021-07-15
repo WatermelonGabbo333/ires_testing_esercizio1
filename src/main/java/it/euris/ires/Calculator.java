@@ -8,6 +8,10 @@ public class Calculator {
 
 	public int minus(int a,int b){return a-b;}
 
+	public int per(int a,int b){return a*b;}
+
+	public int diviso(int a,int b){return a/b;}
+
 	public static void test(){
 		int a =2;
 		int b =1;
