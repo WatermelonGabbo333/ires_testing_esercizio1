@@ -34,7 +34,7 @@ class CalculatorTest {
         //act
         int result = calculator.per(2, 1);
         //assert
-        assertEquals(expectedResult, result,"Dovrei avere 2");
+        assertEquals(expectedResult, result,String.format("%d * %d dovrei ottenere %d",a,b,expectedResult));
     }
 
     @Test
@@ -47,7 +47,7 @@ class CalculatorTest {
         //act
         int result = calculator.diviso(2, 1);
         //assert
-        assertEquals(expectedResult, result,"Dovrei avere 2");
+        assertEquals(expectedResult, result,String.format("%d / %d dovrei ottenere %d",a,b,expectedResult));
     }
 
 
